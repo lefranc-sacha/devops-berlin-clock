@@ -27,7 +27,7 @@ describe("Berlin Clock - Simple Minutes Line , ", function() {
     });
 
     
-    it("should turn on two lights if the minutes are 3", function () {
+    it("should turn on three lights if the minutes are 3", function () {
       
       const result = main.simpleMinutesLine(3);
   
