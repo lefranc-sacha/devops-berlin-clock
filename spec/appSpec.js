@@ -16,5 +16,25 @@ describe("Berlin Clock - Simple Minutes Line , ", function() {
     
         expect(result).toEqual("YOOO");
     });
+<<<<<<< HEAD
+=======
+
+    it("should turn on two lights if the minutes are 2", function () {
+      
+        const result = main.simpleMinutesLine(2);
+    
+        expect(result).toEqual("YYOO");
+    });
+
+    
+    it("should turn on two lights if the minutes are 3", function () {
+      
+      const result = main.simpleMinutesLine(3);
+  
+      expect(result).toEqual("YYYO");
+  });
+
+
+>>>>>>> a78b22d (add: simpleMinutesLine method with test for 3 minutes)
     
 });
